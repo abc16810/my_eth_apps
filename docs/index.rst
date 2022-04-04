@@ -1,7 +1,7 @@
-<PROJECT_NAME>
+my_eth_apps
 ==============================
 
-<SHORT_DESCRIPTION>
+my eth apps
 
 Contents
 --------
@@ -9,7 +9,7 @@ Contents
 .. toctree::
     :maxdepth: 3
 
-    <MODULE_NAME>
+    my_eth_apps
     release_notes
 
 

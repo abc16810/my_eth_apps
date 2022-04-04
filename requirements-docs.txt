@@ -1,1 +1,1 @@
-<PYPI_NAME>[doc]
+my_eth_apps[doc]

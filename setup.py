@@ -44,27 +44,29 @@ with open('./README.md') as readme:
 
 
 setup(
-    name='<PYPI_NAME>',
+    name='my_eth_apps',
     # *IMPORTANT*: Don't manually change the version here. Use `make bump`, as described in readme
     version='0.1.0-alpha.0',
-    description="""<PYPI_NAME>: <SHORT_DESCRIPTION>""",
+    description="""my_eth_apps: my eth apps""",
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='The Ethereum Foundation',
     author_email='snakecharmers@ethereum.org',
-    url='https://github.com/ethereum/<REPO_NAME>',
+    url='https://github.com/ethereum/my_eth_apps',
     include_package_data=True,
     install_requires=[
-        "eth-utils>=2,<3",
+  #      "eth-utils>=2,<3",
+        "eth-utils>=1.9.4,<2.0.0",
+        "py-evm==0.5.0a3"
     ],
     python_requires='>=3.6, <4',
     extras_require=extras_require,
-    py_modules=['<MODULE_NAME>'],
+    py_modules=['my_eth_apps'],
     license="MIT",
     zip_safe=False,
     keywords='ethereum',
     packages=find_packages(exclude=["tests", "tests.*"]),
-    package_data={'<MODULE_NAME>': ['py.typed']},
+    package_data={'my_eth_apps': ['py.typed']},
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',

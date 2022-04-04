@@ -31,7 +31,7 @@ lint:
 	tox -elint
 
 lint-roll:
-	isort --recursive <MODULE_NAME> tests
+	isort --recursive my_eth_apps tests
 	$(MAKE) lint
 
 test:
